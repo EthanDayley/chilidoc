@@ -20,4 +20,5 @@ Usage
 
 ::
     Import chilidoc
-    chilidoc.to_html(your_chilidoc_string)
+    converter = HtmlConverter(your_chilidoc_string)
+    html = converter.convert()
